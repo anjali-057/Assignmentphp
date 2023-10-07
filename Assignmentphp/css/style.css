@@ -1,0 +1,113 @@
+/* Form styling */
+#order-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#order-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+#order-form input[type="text"],
+#order-form input[type="email"],
+#order-form input[type="tel"],
+#order-form select,
+#order-form input[type="radio"],
+#order-form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#order-form button[type="submit"] {
+    background-color: #ff5733; /* Orange color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#order-form button[type="submit"]:hover {
+    background-color: #ff8c66; /* Lighter orange on hover */
+}
+
+/* Toppings and Crust labels */
+#order-form label[for="toppings"],
+#order-form label[for="crust"] {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 4px 0;
+    background-color: #ff5733; /* Orange color */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header h2 {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional styling for radio and checkbox labels */
+label[for="small"],
+label[for="medium"],
+label[for="large"],
+label[for="pepperoni"],
+label[for="mushrooms"],
+label[for="onions"],
+label[for="redpepper"],
+label[for="thin"],
+label[for="thick"],
+label[for="stuffed"] {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+/* Center align radio and checkbox options */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+/* Styling for selected radio and checkbox options */
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #ff5733; /* Orange color */
+}
+
+/* Highlighted text in the form */
+.highlight {
+    color: #ff5733; /* Orange color */
+    font-weight: bold;
+}
